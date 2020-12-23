@@ -2,6 +2,15 @@
 API documentation for the HidingBook.  The HidingBook is a backend infrastructure for the Hiding Game which hosts hidden orders only fillable by KeeperDAO keepers. It also supports client friendly APIs to improve the front end user experience.
 
 
+# General API Information
+
+ * The base endpoint is: `http://18.198.34.146:9999`
+ * Example call: `http://18.198.34.146:9999/tokenList`
+ * This is under development and will change.
+ * All endpoints return either a JSON object or array.
+
+
+
 **Get token list**
 ----
   Returns list of supported tokens.
