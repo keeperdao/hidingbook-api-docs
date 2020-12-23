@@ -51,9 +51,9 @@ API documentation for the HidingBook.  The HidingBook is a backend infrastructur
       }
     });
   ```
-  
-  
-  **Show User**
+
+
+**Show User**
 ----
   Returns json data about a single user.
 
