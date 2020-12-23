@@ -5,7 +5,7 @@ API documentation for the HidingBook.  The HidingBook is a backend infrastructur
 # General API Information
 
  * The base endpoint is: `http://18.198.34.146:9999`
- * Example call: `http://18.198.34.146:9999/tokenList`
+ * Example call: [http://18.198.34.146:9999/tokenList](http://18.198.34.146:9999/tokenList).
  * This is under development and will change.
  * All endpoints return either a JSON object or array.
 
