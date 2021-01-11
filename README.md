@@ -26,7 +26,7 @@ API documentation for the HidingBook.  The HidingBook is a backend infrastructur
 * **Success Response:**
 
     **Content:** 
-```{
+    ```{
   "result": {
     "name": "Hiding Game",
     "timestamp": "2020-12-07T10:35:15+00:00",
