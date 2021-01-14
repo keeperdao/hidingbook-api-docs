@@ -1,0 +1,11 @@
+.DS_Store
+Logs/
+Cache/
+.idea/
+**/*.pyc
+**/*.vscode
+**/__pycache__/
+**/__init__.pyc
+**/__init__.py
+**/bin/
+nick

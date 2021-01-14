@@ -4,10 +4,11 @@ API documentation for the HidingBook.  The HidingBook is a backend infrastructur
 
 # General API Information
 
- * The base endpoint is: `http://18.198.34.146:9999`
- * Example call: [http://18.198.34.146:9999/tokenList](http://18.198.34.146:9999/tokenList)
+ * The base endpoint is: `http://18.198.34.146:9999/v1/`
+ * Example call: [http://18.198.34.146:9999/v1/tokenList](http://18.198.34.146:9999/v1/tokenList)
+ * We're now using 0xv4 RFQ orders, 0xv3 calls will no longer work.
  * This is under development and will change.
- * All endpoints return either a JSON object or array.
+ * All endpoints return either JSON or an array of JSON.
 
 
 
@@ -157,11 +158,11 @@ API documentation for the HidingBook.  The HidingBook is a backend infrastructur
 *  **URL Params**
 
    **Option 1:**
-   `makerAddress=[string]`
+   `maker=[string]`
 
    **Option 2 (NOT YET IMPLEMENTED):**
-   `makerAssetData=[string]`
-   `takerAssetData=[string]`
+   `makerToken=[string]`
+   `takerToken=[string]`
 
 * **Data Params**
 
@@ -173,9 +174,7 @@ API documentation for the HidingBook.  The HidingBook is a backend infrastructur
     **Content:** `{"orders":[{"orderDataGoesHere":"0x12345",},{"orderDataGoesHere":"0x12345",},],"message":"Ok"}`
 
 * **Sample Call:**
-
-  `/orders?makerAddress=0xca77dc47eec9e1c46c9f541ba0f222e741d6236b`
-  `/orders?makerAssetData=0xf47261b0000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48&takerAssetData=0xf47261b0000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48  TODO ThisDoesNotYetWork`
+  `/orders?maker=0xca77dc47eec9e1c46c9f541ba0f222e741d6236b`
 
 
 **Get info**
@@ -189,12 +188,3 @@ API documentation for the HidingBook.  The HidingBook is a backend infrastructur
 * **Method:**
 
   `GET`
-
-* **Success Response:**
-
-    **Content:** `{ id : 12, name : "Michael Bloom" }`
- 
-* **Error Response:**
-
-    **Content:** `{ error : "User doesn't exist" }`
-
