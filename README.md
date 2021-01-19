@@ -18,9 +18,9 @@ Integrating your client with the HidingBook enables your users to coordinate wit
 * DeFi products
 
 ### User benefits
-* Protected against invisible slippage
-* Protected against sandwich trading attacks 
-* Pay zero gas to trade
+* Protection against invisible slippage
+* Protection against sandwich trading attacks 
+* Trade without paying gas
 * Get rewarded in $ROOK for your participation in MEV capture, which results in you trading at a better price than you asked for
 
 ### Keeper benefits
