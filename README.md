@@ -1,9 +1,12 @@
 # hidingbook-api-docs
-API documentation for the HidingBook.  The HidingBook is a backend infrastructure for the Hiding Game which hosts hidden orders only fillable by KeeperDAO keepers. It also supports client friendly APIs to improve the front end user experience.
+API documentation for the HidingBook. 
+
+The HidingBook is a backend infrastructure component of the Hiding Game which hosts hidden orders only fillable by KeeperDAO keepers. It also supports client friendly APIs which enable a smooth front end user experience.
+
+Integrating your client with the HidingBook enables your users to coordinate with KeeperDAO keepers and directly participate in the MEV capture process without ever having to pay gas for a trade. 
 
 
 # General API Information
-
  * The base endpoint is: `http://18.198.34.146:9999/v1/`
  * Example call: [http://18.198.34.146:9999/v1/tokenList](http://18.198.34.146:9999/v1/tokenList)
  * We're now using 0xv4 RFQ orders, 0xv3 calls will no longer work.
