@@ -2,24 +2,17 @@
 
 The HidingBook requires the following integration components
 
- * 0xv4 modules from https://www.npmjs.com/
-    * '@0x/protocol-utils';
-    * '@0x/utils';
-    * '@0x/subproviders';
-    * '@0x/order-utils';
-    * '@0x/contract-addresses';
+ * 0xv4 integration
  * Wallet providers of your choice
-    * MetaMask
-    * etc 
+    * MetaMask, Ledger, etc
  * A user interface for user input
-    * tokens to trade
-    * expiration
+    * tokenIn, tokenOut
+    * order expiration
     * price
-    * etc
  * A user interface for displaying orders
-    * open orders
+    * view open orders
     * cancel orders
-    * historic orders    
+    * view historic orders
 
 #### When the user arrivesUse on the trading screen
 Make a call to the `/info` endpoint to get the information you need to initialize the trading screen. The response contains useful information like supported tokens and data needed to sign orders. 
@@ -45,3 +38,10 @@ https://0xprotocol.readthedocs.io/en/latest/basics/functions.html?highlight=regi
 
 #### 0xv4 Audits
 https://0xprotocol.readthedocs.io/en/latest/additional/audits.html
+
+#### 0xv4 javascript can be found on https://www.npmjs.com/
+    * '@0x/protocol-utils';
+    * '@0x/utils';
+    * '@0x/subproviders';
+    * '@0x/order-utils';
+    * '@0x/contract-addresses';
