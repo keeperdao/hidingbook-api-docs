@@ -18,8 +18,8 @@ Integrating your client with the HidingBook enables your users to coordinate wit
 * Avoid the mempool front running battles
 
 
-[a relative link client](docs/client.md)
+[Client integration guide](docs/client.md)
 
-[a relative link keeper](docs/keeper.md)
+[API documentation](docs/api.md)
 
-[a relative link api](docs/api.md)
+[Keeper integration guide (coming soon)](docs/keeper.md)
