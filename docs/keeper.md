@@ -5,7 +5,7 @@ For the time being, only trusted keepers will be keeping on the Hiding Game unti
 This is the current phase. Keep it simple with one keeper bot while we work out the kinks and prepare to onboard more keepers. 
 
 ## Phase 2: Coordination a few more trusted keepers 
-This is where we introduce the first keeper coordination event. This will be with trusted and experienced keepers only while we improve our coordination process. If you'd like to be involved in this phase, please reach out on [Discord](https://discord.gg/G9mWtTC). We suggest that you have a good variety of DEX integrations for facilitating trade. We require that you integrate with [0xv4](https://0xprotocol.readthedocs.io/en/latest/) so that you can facilitate our user's trades. 
+This is where we introduce the first keeper coordination system. This will be with trusted and experienced keepers only while we improve our coordination process. If you'd like to be involved in this phase, please reach out on [Discord](https://discord.gg/G9mWtTC). We suggest that you have a good variety of DEX integrations for facilitating trade. We require that you integrate with [0xv4](https://0xprotocol.readthedocs.io/en/latest/) so that you can facilitate our user's trades. 
 
 ## Phase 3: Onboard & Coordination any and all keepers 
 More on this in the future.
