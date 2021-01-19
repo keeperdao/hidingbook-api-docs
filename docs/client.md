@@ -35,6 +35,7 @@ https://0xprotocol.readthedocs.io/en/latest/basics/functions.html?highlight=fill
 
 #### When the user wants to cancel an order
 The user needs to sign and broadcast a cancel transaction. There are a variety of ways to cancel orders, including cancel one order, batch cancel many orders, etc.
+
 https://0xprotocol.readthedocs.io/en/latest/basics/functions.html?highlight=registerAllowedRfqOrigins#cancelrfqorder
 
 #### 0xv4 Audits
