@@ -1,6 +1,6 @@
 # General API Information
  * The base endpoint is: `http://18.198.34.146:9999/v1/`
- * Example call: [http://18.198.34.146:9999/v1/tokenList](http://18.198.34.146:9999/v1/tokenList)
+ * Example call: [http://18.198.34.146:9999/v1/info](http://18.198.34.146:9999/v1/info)
  * We're now using 0xv4 RFQ orders, 0xv3 calls will no longer work.
  * This is under development and will change.
  * All endpoints return either JSON or an array of JSON.
