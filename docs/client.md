@@ -34,7 +34,7 @@ Make a call to the `GET /orders` endpoint to get the user's orders. Specify the 
 https://0xprotocol.readthedocs.io/en/latest/basics/functions.html?highlight=fill%20state#getrfqorderinfo
 
 #### When the user wants to cancel an order
-The user needs to sign and broadcast a cancel transaction. There are a variety of ways to cancel orders, including cancel one order, batch cancel many orders, etc.
+The user needs to sign and broadcast a cancel transaction to the blockchain. There are a variety of ways to cancel orders, including cancel one order, batch cancel many orders, etc.
 
 https://0xprotocol.readthedocs.io/en/latest/basics/functions.html?highlight=registerAllowedRfqOrigins#cancelrfqorder
 
