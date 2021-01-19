@@ -40,8 +40,10 @@ https://0xprotocol.readthedocs.io/en/latest/basics/functions.html?highlight=regi
 https://0xprotocol.readthedocs.io/en/latest/additional/audits.html
 
 #### 0xv4 javascript can be found on https://www.npmjs.com/
-```'@0x/protocol-utils';
+```
+@0x/protocol-utils';
 '@0x/utils';
 '@0x/subproviders';
 '@0x/order-utils';
-'@0x/contract-addresses';```
+'@0x/contract-addresses';
+```
