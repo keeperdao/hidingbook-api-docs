@@ -7,7 +7,7 @@ The HidingBook is a backend infrastructure component of the Hiding Game which ho
 
 [API documentation](docs/api.md)
 
-[Keeper integration guide (coming soon)](docs/keeper.md)
+[Keeper integration guide](docs/keeper.md)
 
 Integrating your client with the HidingBook enables your users to coordinate with KeeperDAO keepers for the capture of MEV (miner extractable value).  This is a win-win because both users and keepers are working together to maximize profit generation from a trade the user was going to perform anyways. 
 
