@@ -40,7 +40,7 @@ https://0xprotocol.readthedocs.io/en/latest/basics/functions.html?highlight=regi
 https://0xprotocol.readthedocs.io/en/latest/additional/audits.html
 
 #### 0xv4 javascript modules
-https://www.npmjs.com/
+You can find them on [npmjs](https://www.npmjs.com/)
 ```
 @0x/protocol-utils;
 @0x/utils;
