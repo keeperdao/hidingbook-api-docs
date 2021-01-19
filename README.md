@@ -3,7 +3,7 @@ API documentation for the HidingBook.
 
 The HidingBook is a backend infrastructure component of the Hiding Game which hosts hidden orders only fillable by KeeperDAO keepers. It also supports client friendly APIs which enable a smooth front end user experience.
 
-[Client integration guide](docs/client.md)
+[Client and partner integration guide](docs/client.md)
 
 [API documentation](docs/api.md)
 
