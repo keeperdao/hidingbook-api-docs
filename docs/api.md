@@ -2,8 +2,8 @@
  * The base endpoint is: `http://18.198.34.146:9999/v1/`
  * Example call: [http://18.198.34.146:9999/v1/info](http://18.198.34.146:9999/v1/info)
  * Limit order protocol: [0xv4 RFQ orders](https://0xprotocol.readthedocs.io/en/latest/basics/orders.html?highlight=txOrigin#rfq-orders)
- * This is under development and will change.
- * All endpoints return either JSON or an array of JSON.
+ * This API is still under development and is subject to change
+ * All endpoints return either JSON or an array of JSON
 
 
 **Get info**
