@@ -14,7 +14,7 @@ The HidingBook requires the following integration components
     * cancel orders
     * view historic orders
 
-#### When the user arrivesUse on the trading screen
+#### When the user arrives on the trading screen
 Make a call to the `GET /info` endpoint to get the information you need to initialize the trading screen. The response contains useful information like supported tokens and data needed to sign orders. 
 
 #### When the user is ready to sign an order
