@@ -1,4 +1,4 @@
-# Client integration guide
+# Client and partner integration guide
 
 The HidingBook requires the following integration components
 
