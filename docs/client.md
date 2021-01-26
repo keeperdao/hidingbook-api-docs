@@ -1,4 +1,4 @@
-# Client integration guide
+# Client and partner integration guide
 
 The HidingBook requires the following integration components
 
@@ -14,7 +14,7 @@ The HidingBook requires the following integration components
     * cancel orders
     * view historic orders
 
-#### When the user arrivesUse on the trading screen
+#### When the user arrives on the trading screen
 Make a call to the `GET /info` endpoint to get the information you need to initialize the trading screen. The response contains useful information like supported tokens and data needed to sign orders. 
 
 #### When the user is ready to sign an order
@@ -34,6 +34,8 @@ Make a call to the `GET /orders` endpoint to get the user's orders. Specify the 
 https://0xprotocol.readthedocs.io/en/latest/basics/functions.html?highlight=fill%20state#getrfqorderinfo
 
 #### When the user wants to cancel an order
+The user needs to sign and broadcast a cancel transaction to the blockchain. There are a variety of ways to cancel orders, including cancel one order, batch cancel many orders, etc.
+
 https://0xprotocol.readthedocs.io/en/latest/basics/functions.html?highlight=registerAllowedRfqOrigins#cancelrfqorder
 
 #### 0xv4 Audits

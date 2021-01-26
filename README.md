@@ -3,13 +3,13 @@ Integration documentation for the HidingBook.
 
 The HidingBook is a backend infrastructure component of the Hiding Game which hosts hidden orders only fillable by KeeperDAO keepers. It also supports client friendly APIs which enable a smooth front end user experience.
 
+Integrating your client with the HidingBook enables your users to coordinate with KeeperDAO keepers for the capture of MEV (miner extractable value). This is a win-win because both users and keepers are working together to maximize profit generation from a trade the user was going to perform anyways. The profits generated are returned back to the user in $ROOK tokens. The underlying profit token is deposited into a pool controlled by $ROOK holders.
+
 [Client and partner integration guide](docs/client.md)
 
 [API documentation](docs/api.md)
 
-[Keeper integration guide (coming soon)](docs/keeper.md)
-
-Integrating your client with the HidingBook enables your users to coordinate with KeeperDAO keepers for the capture of MEV (miner extractable value).  This is a win-win because both users and keepers are working together to maximize profit generation from a trade the user was going to perform anyways. 
+[Keeper integration guide](docs/keeper.md)
 
 ### Client use cases
 * DEXs
