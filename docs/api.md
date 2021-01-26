@@ -1,9 +1,15 @@
 # General API Information
- * The base endpoint is: `http://18.198.34.146:9999/v1/`
- * Example call: [http://18.198.34.146:9999/v1/info](http://18.198.34.146:9999/v1/info)
+ * The base endpoint is: `https://hidingbook.keeperdao.com/api/v1/`
+ * Example call: [https://hidingbook.keeperdao.com/api/v1/info](https://hidingbook.keeperdao.com/api/v1/info)
  * Limit order protocol: [0xv4 RFQ orders](https://0xprotocol.readthedocs.io/en/latest/basics/orders.html?highlight=txOrigin#rfq-orders)
  * This API is still under development and is subject to change
  * All endpoints return either JSON or an array of JSON
+ * Response format
+   * success
+     * `{"orders": [], "message": "Ok"}`
+     * `{"orders": [{"order": ....... ], "message": "Ok"}`
+   * error
+     * `{"error": "Invalid request", "message": "Maker has insufficient allowance"}`
 
 
 **Get info**
