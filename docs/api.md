@@ -366,7 +366,7 @@
 
 **Get suggested return**
 ----
-  Get suggested return based on DEX prices.
+  Get suggested trade return based on current DEX prices.
 
 
 * **URL**
@@ -395,5 +395,5 @@
 * **Success Response:**
 
     ```
-    {"result": 9.999678642248218e+16, "message": "Ok"}
+    {"result": 174879564424376618057728, "message": "Ok"}
     ```
