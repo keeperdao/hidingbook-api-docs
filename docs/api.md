@@ -363,3 +363,37 @@
       "message": "Ok"
     }  
     ```
+
+**Get suggested return**
+----
+  Get suggested return based on DEX prices.
+
+
+* **URL**
+
+  /suggestedReturn
+
+* **Method:**
+
+  `GET`
+  
+*  **URL Params**
+
+    `type=[market]`
+   
+    `tokenIn=[address]`
+    
+    `tokenOut=[address]`
+    
+    `amountIn=[amount]`
+
+
+* **Sample Call:**
+    ```    
+    /suggestedReturn?type=market&tokenIn=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2&tokenOut=0x6b175474e89094c44da98b954eedeac495271d0f&amountIn=134548728591769453840
+    ```
+* **Success Response:**
+
+    ```
+    {"result": 9.999678642248218e+16, "message": "Ok"}
+    ```
