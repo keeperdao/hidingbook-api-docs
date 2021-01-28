@@ -32,4 +32,4 @@ Integrating your client with the HidingBook enables your users to coordinate wit
 ### Why HidingBook limit orders are better than all open limit orders
 * The protocol we're using is more gas efficient than all other limit order protocols on Ethereum
 * The keepers filling your limit orders source liquidity from all major DEX protocols
-* Because your order is fillable only by our keepers, no gas auctions will occur. This means our keepers can fill your orders at `safe low` and `normal` gas prices instead of the `fast` and `next block` gas prices you pay on DEX aggregators
+* Because your order is fillable only by our keepers, no gas auctions will occur. This means our keepers can fill your orders at `safe low` and `normal` gas prices instead of only the `fast` and `next block` gas prices you pay on DEX aggregators. 
