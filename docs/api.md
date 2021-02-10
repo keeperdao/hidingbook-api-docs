@@ -368,7 +368,6 @@
 ----
   Get suggested trade return based on current DEX prices.
 
-
 * **URL**
 
   /suggestedReturn
@@ -396,4 +395,47 @@
 
     ```
     {"result": 174879564424376618057728, "message": "Ok"}
+    ```
+
+
+**Get balances**
+----
+  Get token and ether balances.
+
+* **URL**
+
+  /balances
+
+* **Method:**
+
+  `GET`
+  
+*  **URL Params**
+   
+    `user=[address]`
+
+* **Sample Call:**
+    ```    
+    /balances?address=0xcA77Dc47eec9E1C46c9F541ba0f222E741d6236b
+    ```
+* **Success Response:**
+
+    ```
+    {
+      "result": {
+        "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee": {
+          "balance": 9511349808089782810,
+          "decimals": 18
+        },
+        "0x6b175474e89094c44da98b954eedeac495271d0f": {
+          "balance": 0,
+          "decimals": 18
+        },
+        "0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
+          "balance": 0,
+          "decimals": 18
+        }
+      },
+      "message": "Ok"
+    }
     ```
