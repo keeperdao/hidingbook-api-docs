@@ -38,6 +38,14 @@ The user needs to sign and broadcast a cancel transaction to the blockchain. The
 
 https://0xprotocol.readthedocs.io/en/latest/basics/functions.html?highlight=registerAllowedRfqOrigins#cancelrfqorder
 
+#### Calculating an order's fill %
+Use the order data's parameters: `fillPercentage = filledAmount_takerToken / takerAmount`
+
+#### Determining an order's status
+Use the order data's `status` parameter, and refer to 0x's OrderStatus enum
+
+https://0xprotocol.readthedocs.io/en/latest/basics/functions.html?highlight=fill%20state#getrfqorderinfo 
+
 #### 0xv4 Audits
 https://0xprotocol.readthedocs.io/en/latest/additional/audits.html
 
