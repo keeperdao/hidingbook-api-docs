@@ -44,7 +44,7 @@ Use the order data and make a simple calculation.
 `fillPercentage = filledAmount_takerToken / takerAmount`
 
 #### Determining an order's status
-Use the order data, `status` parameter, and refer to 0x's OrderStatus enum.
+Use the order data's `status` and refer to 0x's OrderStatus enum.
 
 https://0xprotocol.readthedocs.io/en/latest/basics/functions.html?highlight=fill%20state#getrfqorderinfo 
 
